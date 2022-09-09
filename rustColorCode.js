@@ -29,6 +29,11 @@ export const rustColorCode = {
     type: "#",
     // this is currently coming from dark_vs.json...
     enum: "#B4CEA8",
-  }
+  },
+
+  other: {
+    operator: "#F29E74",
+    'punctuation.semi.rust': null
+  },
   
 }
