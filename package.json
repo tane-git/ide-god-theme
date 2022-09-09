@@ -1,5 +1,6 @@
 {
   "name": "ide-god-theme",
+  "type": "module",
   "displayName": "ide-god-theme",
   "description": "",
   "version": "0.0.1",
@@ -12,10 +13,33 @@
   "contributes": {
     "themes": [
       {
+        "label": "ayu_dark_plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ayu_dark_plus.json"
+      },
+      {
+        "label": "default_dark_plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "label": "ide-god-theme-gray-6",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ide-god-theme-gray-6.json"
+      },
+      {
         "label": "ide-god-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/ide-god-theme-color-theme.json"
+      },
+      {
+        "label": "ide-god-theme-dark9",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ide-god-theme-dark9.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16"
   }
 }
