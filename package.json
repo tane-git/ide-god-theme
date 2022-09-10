@@ -13,29 +13,19 @@
   "contributes": {
     "themes": [
       {
+        "label": "ayu_gray_plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ayu_gray_plus.json"
+      },
+      {
         "label": "ayu_dark_plus",
         "uiTheme": "vs-dark",
         "path": "./themes/ayu_dark_plus.json"
       },
       {
-        "label": "default_dark_plus",
+        "label": "default_gray_plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_plus.json"
-      },
-      {
-        "label": "ide-god-theme-gray-6",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ide-god-theme-gray-6.json"
-      },
-      {
-        "label": "ide-god-theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ide-god-theme-color-theme.json"
-      },
-      {
-        "label": "ide-god-theme-dark9",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ide-god-theme-dark9.json"
+        "path": "./themes/gray_plus.json"
       }
     ]
   },

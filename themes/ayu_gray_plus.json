@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
-	"include": "./dark_vs_only.json",
+	"include": "./gray_vs_only.json",
 	"tokenColors": [
 		{
 			"name": "Comment",
